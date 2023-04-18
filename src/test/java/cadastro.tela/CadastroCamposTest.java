@@ -59,12 +59,9 @@ public class CadastroCamposTest {
         cidade.sendKeys("São Paulo");
         estado.sendKeys("SP");
         cepEndereco.sendKeys("04203022");
-
         Thread.sleep(2000);
-
         botaoSalvar.click();
-
-        Thread.sleep(4000);
+        Thread.sleep(2000);
     }
 
 
